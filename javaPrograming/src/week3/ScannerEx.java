@@ -23,7 +23,7 @@ public class ScannerEx {
 		boolean isSingle = scanner.nextBoolean(); // 논리값 읽기
 		System.out.println("독신 여부는 " + isSingle + "입니다.");
 		
-		System.out.println("감사합니다");
+		System.out.println("감사합니다"); // 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
 		
 		scanner.close(); // scanner 객체 닫기
 		
