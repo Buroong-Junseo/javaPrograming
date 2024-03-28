@@ -19,5 +19,5 @@ public class ArithmeticOperator {
 		System.out.println(second + "초입니다.");
 		scanner.close(); 
 	}
-
+	
 }
