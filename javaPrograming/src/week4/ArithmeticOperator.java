@@ -17,7 +17,7 @@ public class ArithmeticOperator {
 		System.out.print(hour + "시간, ");
 		System.out.print(minute + "분, ");
 		System.out.println(second + "초입니다.");
-		scanner.close();
+		scanner.close(); 
 	}
 
 }
