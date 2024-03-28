@@ -16,7 +16,7 @@ public class ScannerEx {
 		
 		int age = scanner.nextInt(); // 정수 읽기
 		System.out.print("나이는 " + age + "살, ");
-		
+			
 		double weight = scanner.nextDouble(); // 실수 읽기
 		System.out.print("체중은 " + weight + "kg, ");
 		

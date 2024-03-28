@@ -12,7 +12,7 @@ public class ArithmeticOperator {
 		int second = time % 60; 			// 60으로 나눈 나머지는 초
 		int minute = (time / 60) % 60; 		//60으로 나눈 몫을 다시 60으로 나눈 나머지는 몫
 		int hour = (time / 60) / 60; 		//60으로 나눈 몫을 다시 60으로 나눈 몫은 시간
-		
+			
 		System.out.print(time + "초는 ");
 		System.out.print(hour + "시간, ");
 		System.out.print(minute + "분, ");

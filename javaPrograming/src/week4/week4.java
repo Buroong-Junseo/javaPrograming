@@ -13,7 +13,7 @@ public class week4 {
 		j = i;
 		
 		
-		
+			
 		System.out.println("i : " + i);
 		System.out.println("j : " + j);
 	}
