@@ -16,8 +16,12 @@ public class AssignmentIncDecOperator {
 		System.out.println("a=" + a + ", d=" + d);
 		a = ++d; // d=5, a=5
 		System.out.println("a=" + a + ", d=" + d);
+		
+		// ++d, d++의 차이
+		
 		a = d--; // a=5, d=4
 		System.out.println("a=" + a + ", d=" + d);
+		
 		a = --d; // d=3, a=3
 		System.out.println("a=" + a + ", d=" + d);
 		
