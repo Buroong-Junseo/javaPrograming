@@ -16,6 +16,10 @@ public class SuccessOrFail {
 			System.out.print("축하합니다! 합격입니다.");
 		}
 		
+		else {
+			System.out.print("아쉽습니다. 불합격입니다.");
+		}
+		
 		scanner.close();
 	}
 
