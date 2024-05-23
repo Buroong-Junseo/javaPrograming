@@ -6,7 +6,7 @@ public class foreachEx {
 	
 	public static void main(String[] args) {
 		
-		int [] n = { 1,2,3,4,5};
+		int [] n = {1,2,3,4,5};
 		
 		String names[] = { "사과", "배", "바나나", "체리", "딸기", "포도" };
 		
