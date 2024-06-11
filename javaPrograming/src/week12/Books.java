@@ -4,7 +4,9 @@ public class Books {
 	String title;
 	String author;
 	
-	void show() { System.out.println(title + " " + author); }
+	void show() { 
+		System.out.println(title + " " + author);
+		}
 	
 	public Books() {
 		this("", "");
@@ -20,9 +22,9 @@ public class Books {
 		this.author = author;
 	}
 	public static void main(String[] args) {
-		Book LittlePrince = new Book("어린왕자", "생텍쥐페리");
-		Book loveStory = new Book();
-		Book emptyBook = new Book();
+		Books LittlePrince = new Books("어린왕자", "생텍쥐페리");
+		Books loveStory = new Books("춘향전");
+		Books emptyBook = new Books();
 		loveStory.show();
 	}
 }
