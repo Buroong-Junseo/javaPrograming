@@ -9,13 +9,13 @@ class Circles {
 	}
 }
 
-public class ReferencePassing {
+public class ReferencePassing {								// 기본 클래스
 	
-	static void increase(Circles m) {
+	static void increase(Circles m) {						
 		m.radius++;
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) {				// 메인 메소드
 		Circles pizza = new Circles(10);
 		
 		increase(pizza);
